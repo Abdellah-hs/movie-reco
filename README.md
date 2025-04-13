@@ -2,12 +2,6 @@
 
 This is a **Streamlit web application** that recommends movies based on user interests. It uses **content-based filtering** with **cosine similarity** to suggest similar movies. This project demonstrates how machine learning can help people make decisions in a world full of options.
 
-## 🚀 Live Demo
-
-👉 [Click here to try the app](https://movie-recommeder-system.herokuapp.com/)
-
----
-
 ## 🧠 Why Recommendation Systems Matter
 
 In today's fast-paced world, people are overwhelmed by choices and short on time. Recommendation systems solve this problem by providing **personalized suggestions** based on user preferences, saving both time and effort.
@@ -63,20 +57,12 @@ Cosine similarity is used to measure how similar two items are by calculating th
 
 📘 Learn more: [Cosine Similarity – LearnDataSci](https://www.learndatasci.com/glossary/cosine-similarity/)
 
----
 
-## 🧪 Demo Screenshots
-
-<img src="demo/1.png" width="70%">
-<img src="demo/2.png" width="70%">
-<img src="demo/3.png" width="70%">
-
----
 
 ## 🛠️ How to Run the Project Locally
 
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/entbappy/Movie-Recommender-System-Using-Machine-Learning.git
-cd Movie-Recommender-System-Using-Machine-Learning
+streamlit run app.py
+
